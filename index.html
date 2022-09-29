@@ -9,8 +9,8 @@
     <!-- fontawesome add -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/19fa7fcbb6.js" crossorigin="anonymous"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/19fa7fcbb6.js" crossorigin="anonymous"></script>
 
     <!-- Adding CSS  -->
     <link rel="stylesheet" href="style.css" />
@@ -35,12 +35,15 @@
       <a href="#">Code<span>aU</span>roj_</a>
       <div class="navigation">
         <ul>
-          <li><a href="#">Home</a></li>
+          <strong id="menu-close">X</strong>
+          <li><a href="#home">Home</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">Tutorials</a></li>
           <li><a href="#">Contact</a></li>
+          </div>
         </ul>
+        <img id="menu-btn" src="images/menu.png" alt="">
       </div>
     </nav>
 
@@ -49,9 +52,9 @@
     <!-- Introduction -->
     <section id="home">
       <!-- <img src="images/right-pic1.png" alt=""> -->
-      <h2>Welcome to</h2>
-      <h1> Code<span>aU</span>roj_</h1>
-      <h2>Believe in the beauty of your Dreams.</h2>
+      <!-- <h1></h1> -->
+      <h1> Welcome to Code<span>aU</span>roj_</h1>
+      <h2>Believe in the beauty of your Dreams.</h2> <br>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsum, ut ipsam accusantium qui deleniti excepturi, rem, odio aliquid blanditiis sint magnam veritatis quod quam. Reiciendis dolorum excepturi rem iste</p>
       <div class="btn">
         <a href="#">Motivation</a>
@@ -91,11 +94,11 @@
 
     <!-- Videos -->
     <section id="videos">
-      <h1>Courses</h1>
-      <h5>All courses are free of cost <span><</span>/></h5>
+      <h1>Latest videos</h1>
+      <!-- <h5>All courses are free of cost</h5> -->
       <div class="video-box">
 
-        <div class="c-cards">
+        <!-- <div class="c-cards">
           <img src="images/courses/c1.png" alt="">
           <div class="details">
             <span>Updated on 2/6/22</span>
@@ -124,38 +127,56 @@
           <div class="cost">
             $Free
           </div>
+        </div> -->
+        <div class="c-cards">
+          <img src="images/Grade Calculator.png" alt="">
+          <div href="https://www.youtube.com/watch?v=xLDIvwjegy4&t=104s" target="_blank" class="details">
+            <!-- <span>Updated on 2/6/22</span> -->
+            <h3>Javascript Grade Calculator mini project ll HTML, CSS & JS project</h3>
+          </div>
+          <a href="https://www.youtube.com/watch?v=xLDIvwjegy4&t=104s" target="_blank" class="watch">Watch Now</a>
+          <!-- <div class="cost">
+            $Free
+          </div> -->
         </div>
         <div class="c-cards">
-          <img src="images/courses/c4.png" alt="">
-          <div class="details">
-            <span>Updated on 2/6/22</span>
-            <h3>Javascript For Beginners</h3>
+          <img src="images/Login Page.png" alt="">
+          <div href="https://www.youtube.com/watch?v=mIFHyMe-A3c&t=131s" target="_blank" class="details">
+            <!-- <span>Updated on 2/6/22</span> -->
+            <h3>How to create a Login Form using only HTML & CSS with circular logo at top</h3>
           </div>
-          <div class="cost">
+          <a href="https://www.youtube.com/watch?v=mIFHyMe-A3c&t=131s" target="_blank" class="watch">Watch Now</a>
+          <!-- <div class="cost">
             $Free
-          </div>
+          </div> -->
         </div>
         <div class="c-cards">
-          <img src="images/courses/c5.png" alt="">
-          <div class="details">
-            <span>Updated on 2/6/22</span>
-            <h3>Python For Beginners</h3>
+          <img src="images/Code Editor.png" alt="">
+          <div href="" class="details">
+            <!-- <span>Updated on 2/6/22</span> -->
+            <h3>Code Editor using HTML, CSS, Javascript</h3>
           </div>
-          <div class="cost">
+          <a href="https://www.youtube.com/watch?v=xLDIvwjegy4&t=104s" target="_blank" class="watch">Watch Now</a>
+          <!-- <div class="cost">
             $Free
-          </div>
-        </div>
-        <div class="c-cards">
-          <img src="images/courses/c6.png" alt="">
-          <div class="details">
-            <span>Updated on 2/6/22</span>
-            <h3>Cyber Security & Ethical Hacking</h3>
-          </div>
-          <div class="cost">
-            $Free
-          </div>
+          </div> -->
         </div>
 
+      </div>
+    </section>
+
+    <section class="footer">
+      <p><strong>copyright 
+        © 2022 | codeauroj_</strong></p>
+      <i class="fab fa-instagram"><a href="https://www.instagram.com/auroj._/"></a></i>
+      <i class="fab fa-linkedin-in"><a href="https://www.linkedin.com/in/aurojyoti-tusarkanti-das"></a></i>
+      <i class="fab fa-youtube"><a href="https://www.youtube.com/channel/UCI4R58VKVGus7fNeFjM1cWA"></a></i>
+      <i class="fab fa-github"><a href="https://github.com/Aurojyoti23"></a></i>
+      <i class="fab fa-facebook-f"><a href="https://www.facebook.com/aurojyoti.das.7/"></a></i><br><br>
+      <div class="subscribe-btn">
+        <a href="https://www.youtube.com/channel/UCI4R58VKVGus7fNeFjM1cWA">
+          Subscribe
+        </a>
       </div>
     </section>
 
@@ -172,6 +193,7 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
